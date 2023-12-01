@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Course Registration</h2>
+
+        <form>
+            <fieldset>
+                First Name:<input type="text" name="fistname" maxlength="50" size="30px"/> 
+                Last Name :<input type="text" name="lastname"/><br>
+            
+           
+            </fieldset>
+            Gender:<br>
+            <input type="radio" name="gender" value="male"/>male
+            <input type="radio" name="gender" value="female"/>female
+            <br>
+            choose yiur preference:
+            <input type="checkbox" value="java"/> java <br>
+            <input type="checkbox" value="cpp"/> c++ <br>
+            <input type="checkbox" value="python"/> python <br>
+            <input type="checkbox" value="webdev"/> web Development <br>
+            write why you are optiing for this course(100words): <br>
+            <textarea row="10" cols="40" name="textarea"></textarea><br>
+            choose Batch:
+            <select name="dropdown">
+                <option value="9to11">9AM-11AM</option>
+                <option value="11to1">11AM-1PM</option>
+                <option value="1to3">1PM-3PM</option>
+
+            </select><br>
+            Password: <input type="password" name="password"/><br>
+            color: <input type="color"/> <br>
+            Date: <input type="date"/> <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            
+
+        </form>
+    </div>
+    
+</body>
+</html>
